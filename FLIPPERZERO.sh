@@ -222,7 +222,9 @@ fi
 if [ $updt = 20 ] || [ $updt = 20 ]
 then
 
-
+git clone https://github.com/Kingcy78/flipperzero_v.4.0.3
+cd Kingcy78/flipperzero_v.4.0.3
+bash FLIPPERZERO.sh
 fi
 
 
