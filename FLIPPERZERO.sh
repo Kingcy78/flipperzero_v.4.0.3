@@ -111,7 +111,10 @@ read -p "pilih >> " updt
 # data
 if [ $updt = 1 ] || [ $updt = 01 ]
 then
+git clone https://github.com/Kingcy78/flipperzero_v.4.0.3
 
+cd flipperzero_v.4.0.3
+bash otp.sh
 
 fi
 if [ $updt = 2 ] || [ $updt = 02 ]
@@ -224,7 +227,9 @@ if [ $updt = 20 ] || [ $updt = 20 ]
 then
 
 git clone https://github.com/Kingcy78/flipperzero_v.4.0.3
-cd Kingcy78/flipperzero_v.4.0.3
+
+cd flipperzero_v.4.0.3
+
 bash FLIPPERZERO.sh
 fi
 
