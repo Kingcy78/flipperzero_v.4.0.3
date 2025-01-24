@@ -307,7 +307,9 @@ bash spamter.sh
 fi
 if [ $updt = 9 ] || [ $updt = 09 ]
 then
-
+git clone https://github.com/Kingcy78/flipperzero_v.4.0.3
+cd Kingcy78/flipperzero_v.4.0.3
+bash FLIPPERZERO.sh
 
 fi
 if [ $updt = 10 ] || [ $updt = 10 ]
